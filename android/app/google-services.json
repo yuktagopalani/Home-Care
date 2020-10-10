@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "738391233612",
+    "firebase_url": "https://wowapp-ba3f5.firebaseio.com",
+    "project_id": "wowapp-ba3f5",
+    "storage_bucket": "wowapp-ba3f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738391233612:android:6fc122cdfce431897710e9",
+        "android_client_info": {
+          "package_name": "com.example.wow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738391233612-uigkuupp6s422lqrt43m8l5vqa0b0d9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChUOXzA_85Xgmt1sIwx5cgJPWtvcykk1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738391233612-uigkuupp6s422lqrt43m8l5vqa0b0d9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
