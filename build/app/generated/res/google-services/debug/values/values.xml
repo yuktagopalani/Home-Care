@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">738391233612-uigkuupp6s422lqrt43m8l5vqa0b0d9u.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://wowapp-ba3f5.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">738391233612</string>
+    <string name="google_api_key" translatable="false">AIzaSyChUOXzA_85Xgmt1sIwx5cgJPWtvcykk1M</string>
+    <string name="google_app_id" translatable="false">1:738391233612:android:6fc122cdfce431897710e9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyChUOXzA_85Xgmt1sIwx5cgJPWtvcykk1M</string>
+    <string name="google_storage_bucket" translatable="false">wowapp-ba3f5.appspot.com</string>
+    <string name="project_id" translatable="false">wowapp-ba3f5</string>
+</resources>
