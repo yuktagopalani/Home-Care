@@ -5,13 +5,15 @@ class User {
   String phone;
   String uid;
   String address;
+  double lat;
+  double long;
 
   User(
       {this.name,
         this.email,
         this.imageUrl,
         this.phone,
-        this.uid, this.address}
+        this.uid, this.address,this.lat,this.long}
         );
 
   User.fromJson(Map<String, dynamic> json) {
@@ -21,6 +23,8 @@ class User {
     imageUrl = json['ImageURL'];
     phone = json['Phone'];
     address=json['Address'];
+    lat=json['Lat'];
+    long=json['Long'];
 
   }
 
@@ -32,6 +36,8 @@ class User {
     userDetail['ImageURL'] = this.imageUrl;
     userDetail['Phone'] = this.phone;
     userDetail['Address'] = this.address;
+    userDetail['Lat']=this.lat;
+    userDetail['Long']=this.long;
 
     return userDetail;
   }
