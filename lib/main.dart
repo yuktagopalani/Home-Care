@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
           },
         ),
       ),
-      title: 'SemBreaker',
+      title: 'Help Care',
       debugShowCheckedModeBanner: false,
       home: FutureBuilder(
         future: SharedPreferencesUtil.getBooleanValue(Constants.USER_LOGGED_IN),

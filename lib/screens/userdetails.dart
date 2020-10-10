@@ -43,39 +43,79 @@ class _UserDetailsState extends State<UserDetails> {
     crossAxisAlignment: CrossAxisAlignment.start,
     mainAxisAlignment: MainAxisAlignment.center,
     children: <Widget>[
+      Center(
+        child: Image(
+          image: AssetImage('assets/gLogo.png'),
+          height: 100.0,
+        ),
+      ),
 
-         TextField(
-           onChanged: (value){
-             phone=value;
-           },
+      SizedBox(height: 20),
 
-         ),
-          TextField(
-            onChanged: (value){
-              address=value;
-            },
-          ),
-      MaterialButton(
-        child: Text("Sign In"),
-        color: Colors.red,
-        onPressed: (){
-          SignInUtil(
-              phone: phone,
-          address: address,lat: lat,long: long)
-              .signInWithGoogle()
-              .whenComplete(() {
-            Navigator.pop(context);
-            Navigator.popUntil(context, ModalRoute.withName('/'));
-            Navigator.of(context).push(
-              MaterialPageRoute(
-                builder: (context) {
-                  return Home();
-                },
-              ),
-            );
-          });
+      TextField(
+        obscureText: true,
+        decoration: InputDecoration(
+          border: OutlineInputBorder(),
+          labelText: 'Enter your phone no.',
+        ),
+
+        onChanged: (value){
+          phone=value;
         },
-      )
+
+
+      ),
+      SizedBox(height: 20),
+      TextField(
+        obscureText: true,
+        decoration: InputDecoration(
+          border: OutlineInputBorder(),
+          labelText: 'Enter your Address',
+        ),
+        onChanged: (value){
+          address=value;
+        },
+      ),
+      SizedBox(height: 20),
+
+
+      Center(
+        child: Padding(
+          padding: EdgeInsets.only(left: 70.0, right: 70.0),
+          child: RaisedButton(
+            textColor: Colors.black,
+            color: Colors.grey,
+            child: Text("Sign In with Google",
+              style: TextStyle(
+                fontSize: 20.0,
+//              fontWeight: FontWeight.bold,
+              ),
+            ),
+            onPressed: (){
+              SignInUtil(
+                  phone: phone,
+                  address: address,lat: lat,long: long)
+                  .signInWithGoogle()
+                  .whenComplete(() {
+                Navigator.pop(context);
+                Navigator.popUntil(context, ModalRoute.withName('/'));
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return Home();
+                    },
+                  ),
+                );
+              });
+            },
+
+            shape: new RoundedRectangleBorder(
+              borderRadius: new BorderRadius.circular(30.0),
+            ),
+          ),
+        ),
+      ),
+
 
             ],
         ),

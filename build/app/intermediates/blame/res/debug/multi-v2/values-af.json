@@ -4,24 +4,24 @@
             "outputFile": "C:\\Users\\yukta\\AndroidStudioProjects\\HelpCare\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yukta\\.gradle\\caches\\transforms-2\\files-2.1\\fdb7f764bae631c34cad86862de08b65\\core-1.1.0\\res\\values-af\\values-af.xml",
+                    "source": "C:\\Users\\yukta\\.gradle\\caches\\transforms-2\\files-2.1\\5847ca3fcf7a0129bb351b897fc2f7cc\\play-services-base-17.2.1\\res\\values-af\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,350,538,662,770,979,1099,1246,1373,1598,1704,1892,2017,2215,2395,2487,2576",
+                        "endColumns": "104,187,123,107,208,119,146,126,224,105,187,124,197,179,91,88,103",
+                        "endOffsets": "349,537,661,769,978,1098,1245,1372,1597,1703,1891,2016,2214,2394,2486,2575,2679"
                     },
                     "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2790",
-                        "endColumns": "100",
-                        "endOffsets": "2886"
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,402,530,642,851,975,1126,1459,1684,1794,1982,2111,2309,2493,2589,2682",
+                        "endColumns": "108,187,127,111,208,123,150,130,224,109,187,128,197,183,95,92,107",
+                        "endOffsets": "209,397,525,637,846,970,1121,1252,1679,1789,1977,2106,2304,2488,2584,2677,2785"
                     }
                 },
                 {
-                    "source": "C:\\Users\\yukta\\.gradle\\caches\\transforms-2\\files-2.1\\8658444b64e10a04be899ac9bb312764\\jetified-play-services-basement-17.0.0\\res\\values-af\\values.xml",
+                    "source": "C:\\Users\\yukta\\.gradle\\caches\\transforms-2\\files-2.1\\21aaefaff264c1ea60ce16716affede7\\jetified-play-services-basement-17.2.1\\res\\values-af\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\yukta\\.gradle\\caches\\transforms-2\\files-2.1\\35c6271043b1425f98f4c3536d04e924\\play-services-base-17.1.0\\res\\values-af\\values.xml",
+                    "source": "C:\\Users\\yukta\\.gradle\\caches\\transforms-2\\files-2.1\\5232fc3840c97813025126e301fc2739\\core-1.2.0\\res\\values-af\\values-af.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,350,538,662,770,979,1099,1246,1373,1598,1704,1892,2017,2215,2395,2487,2576",
-                        "endColumns": "104,187,123,107,208,119,146,126,224,105,187,124,197,179,91,88,103",
-                        "endOffsets": "349,537,661,769,978,1098,1245,1372,1597,1703,1891,2016,2214,2394,2486,2575,2679"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,402,530,642,851,975,1126,1459,1684,1794,1982,2111,2309,2493,2589,2682",
-                        "endColumns": "108,187,127,111,208,123,150,130,224,109,187,128,197,183,95,92,107",
-                        "endOffsets": "209,397,525,637,846,970,1121,1252,1679,1789,1977,2106,2304,2488,2584,2677,2785"
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2790",
+                        "endColumns": "100",
+                        "endOffsets": "2886"
                     }
                 }
             ]

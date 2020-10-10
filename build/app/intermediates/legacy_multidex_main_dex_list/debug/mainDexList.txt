@@ -67,6 +67,7 @@ androidx/core/app/NotificationCompat$BadgeIconType.class
 androidx/core/app/NotificationCompat$GroupAlertBehavior.class
 androidx/core/app/NotificationCompat$NotificationVisibility.class
 androidx/core/app/NotificationCompat$StreamType.class
+androidx/core/app/RemoteInput$EditChoicesBeforeSending.class
 androidx/core/app/RemoteInput$Source.class
 androidx/core/app/ServiceCompat$StopForegroundFlags.class
 androidx/core/content/PermissionChecker$PermissionResult.class
@@ -104,6 +105,11 @@ androidx/versionedparcelable/NonParcelField.class
 androidx/versionedparcelable/ParcelField.class
 androidx/versionedparcelable/VersionedParcelize.class
 androidx/viewpager/widget/ViewPager$DecorView.class
+com/baseflow/geolocator/tasks/LocationUpdatesUsingLocationManagerTask$GeolocationAccuracy.class
+com/baseflow/googleapiavailability/MethodCallHandlerImpl$GooglePlayServicesAvailability.class
+com/baseflow/location_permissions/LocationPermissionsPlugin$PermissionLevel.class
+com/baseflow/location_permissions/LocationPermissionsPlugin$PermissionStatus.class
+com/baseflow/location_permissions/LocationPermissionsPlugin$ServiceStatus.class
 com/google/android/gms/auth/api/accounttransfer/AuthenticatorTransferCompletionStatus.class
 com/google/android/gms/auth/api/credentials/Credential.class
 com/google/android/gms/auth/api/credentials/CredentialPickerConfig$Prompt.class
@@ -115,8 +121,10 @@ com/google/android/gms/common/annotation/KeepForSdk.class
 com/google/android/gms/common/annotation/KeepForSdkWithFieldsAndMethods.class
 com/google/android/gms/common/annotation/KeepForSdkWithMembers.class
 com/google/android/gms/common/annotation/KeepName.class
+com/google/android/gms/common/annotation/NonNullApi.class
 com/google/android/gms/common/api/Result.class
 com/google/android/gms/common/internal/HideFirstParty.class
+com/google/android/gms/common/internal/Preconditions.class
 com/google/android/gms/common/internal/ReflectedParcelable.class
 com/google/android/gms/common/internal/ShowFirstParty.class
 com/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable.class
@@ -132,8 +140,9 @@ com/google/android/gms/common/util/DynamiteApi.class
 com/google/android/gms/common/util/RetainForClient.class
 com/google/android/gms/common/util/VisibleForTesting.class
 com/google/android/gms/common/zzc.class
-com/google/android/gms/common/zzm.class
+com/google/android/gms/common/zzl.class
 com/google/android/gms/internal/auth/zzax.class
+com/google/android/gms/location/ActivityTransition$SupportedActivityTransition.class
 com/google/android/gms/stats/CodePackage.class
 com/google/common/annotations/Beta.class
 com/google/common/annotations/GwtCompatible.class
