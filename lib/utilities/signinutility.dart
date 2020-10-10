@@ -7,13 +7,15 @@ import 'package:wow/utilities/constants.dart';
 
 
 class SignInUtil {
-  SignInUtil({this.phone,this.address});
+  SignInUtil({this.phone,this.address,this.lat,this.long});
   String name;
   String email;
   String imageUrl;
   String phone;
   String uid;
   String address;
+  double lat;
+  double long;
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   final GoogleSignIn googleSignIn = GoogleSignIn();
   final _firestoreUser =
@@ -50,6 +52,8 @@ class SignInUtil {
     user.uid = uid;
     user.phone=phone;
     user.address=address;
+    user.lat=lat;
+    user.long=long;
 
     SharedPreferencesUtil.setBooleanValue(Constants.USER_LOGGED_IN, true);
     SharedPreferencesUtil.setStringValue(Constants.USER_DETAIL_OBJECT, user);
@@ -68,7 +72,9 @@ class SignInUtil {
             'imageUrl': imageUrl,
             'uid': uid,
             'phone':phone,
-            'address':address
+            'address':address,
+            'lat':lat,
+             'long':long
           },
         ),
       },
