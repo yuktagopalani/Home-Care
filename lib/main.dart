@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:wow/screens/mainpage.dart';
 import 'package:wow/utilities/constants.dart';
 import 'package:wow/utilities/sharedprefutility.dart';
 import 'package:wow/screens/home.dart';
 import 'package:wow/screens/userdetails.dart';
 import 'package:wow/screens/blank.dart';
+//import 'package:wow/screens/mainpage.dart';
 
 void main() {
   runApp(MyApp());
@@ -55,7 +57,7 @@ class _MyAppState extends State<MyApp> {
         future: SharedPreferencesUtil.getBooleanValue(Constants.USER_LOGGED_IN),
         builder: (context, AsyncSnapshot<bool> snapshot) {
           if (snapshot.hasData) {
-            return snapshot.data ? Home() : UserDetails();
+            return snapshot.data ?MainPage() : UserDetails();
           } else
             return Blank();
         },
