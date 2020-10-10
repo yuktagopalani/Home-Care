@@ -7,6 +7,8 @@ import 'package:wow/utilities/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cloud_firestore_platform_interface/cloud_firestore_platform_interface.dart';
+
+import 'home.dart';
 Firestore firestoreInstance;
 String address="",name="",phone="",desc="",type="";
 class GetHelp extends StatefulWidget {
@@ -207,6 +209,10 @@ class _GetHelpState extends State<GetHelp> {
                 onPressed: (){
 
                       _onPressed();
+                      Navigator.popUntil(context, ModalRoute.withName('/'));
+
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => MainPage()));
                 },
               ),
             )
