@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:wow/models/user.dart';
 import 'package:wow/utilities/sharedprefutility.dart';

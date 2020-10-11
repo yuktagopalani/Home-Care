@@ -4,7 +4,6 @@ import 'package:wow/utilities/sharedprefutility.dart';
 import 'package:wow/screens/home.dart';
 import 'package:wow/screens/userdetails.dart';
 import 'package:wow/screens/blank.dart';
-
 import 'screens/home.dart';
 
 void main() {
@@ -51,7 +50,7 @@ class _MyAppState extends State<MyApp> {
           },
         ),
       ),
-      title: 'SemBreaker',
+      title: 'Help Care',
       debugShowCheckedModeBanner: false,
       home: FutureBuilder(
         future: SharedPreferencesUtil.getBooleanValue(Constants.USER_LOGGED_IN),

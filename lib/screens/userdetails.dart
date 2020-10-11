@@ -87,13 +87,16 @@ class _UserDetailsState extends State<UserDetails> {
                         padding: EdgeInsets.only(left: 70.0, right: 70.0),
                         child: RaisedButton(
                           textColor: Colors.black,
-                          color: Colors.blueAccent,
+                          color: Colors.white12,
                           child: Center(
-                            child: Text("Sign In with Google",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 20.0,
+                            child: Padding(
+                              padding: const EdgeInsets.all(10.0),
+                              child: Text("Sign In with Google",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20.0,
 //              fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
                           ),
