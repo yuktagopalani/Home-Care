@@ -38,6 +38,7 @@ class _GetHelpState extends State<GetHelp> {
 //      address=c.text;
 //      type=d.text;
 //      desc=e.text;
+    print("gone");
       final _firestoreUser =
       Firestore.instance.collection("helplist");
       var firebaseUser = await FirebaseAuth.instance.currentUser();
