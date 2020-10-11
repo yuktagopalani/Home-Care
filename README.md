@@ -11,10 +11,10 @@ This App lets you register through your Google Account with the help of firebase
 We built the App using the Flutter Framework. We used Google FireBase as the backend for the project & to make the database in the firestore. We used geolocation service to find the current location of the user.
 
 ## Challenges we ran into
-The biggest challenges were to make the Firebase as our Backend and also to find the needy people in a particular distance radius. For that we watched long tutorials on the internet. For finding neaarby people, we used a mathematical formula to find the distane between two coordinates on earth.
+The biggest challenges were to make the Firebase as our Backend and also to find the needy people in a particular distance radius. For that we watched long tutorials on the internet. For finding nearby people, we used a mathematical formula to find the distane between two coordinates on earth.
 
 ## Accomplishments that we're proud of
-We are proud that we have made an App that would serve the basic necessity of the sick people by giving them a medium through which they can connect with the people who want to help them !
+We are proud that we have made an App that would serve the basic necessity of the sick people by giving them a medium through which they can connect with the people who want to help them ! 
 ## What we learned
 Foremost, the most important thing we learnt is to how to make a healthy bond with new people & how to collabrate as a team. Secondly, we learnt how to use our time efficiently in order to implement the idea.Lastly, we learn making the backend in Flutter app with Google Firebase & to use latitudes and longitudes in our app !
 
