@@ -408,6 +408,48 @@
             </list>
           </value>
         </entry>
+        <entry key="url_launcher">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="url_launcher_linux">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="url_launcher_macos">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+8/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="url_launcher_platform_interface">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.8/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="url_launcher_web">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.4+1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="url_launcher_windows">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="vector_math">
           <value>
             <list>
@@ -486,6 +528,12 @@
       <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.1.0/lib" />
       <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.16/lib" />
       <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.6/lib" />
+      <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.2/lib" />
+      <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+1/lib" />
+      <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+8/lib" />
+      <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.8/lib" />
+      <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.4+1/lib" />
+      <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+1/lib" />
       <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8/lib" />
       <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/win32-1.7.3/lib" />
       <root url="file://$USER_HOME$/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.1.0/lib" />

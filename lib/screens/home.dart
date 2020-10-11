@@ -4,6 +4,7 @@ import 'package:wow/screens/userdetails.dart';
 import '../utilities/signinutility.dart';
 import 'package:wow/screens/gethelp.dart';
 import 'package:flutter/material.dart';
+import 'package:wow/screens/givehelpdistance.dart';
 
 class MainPage extends StatelessWidget {
   @override
@@ -55,7 +56,10 @@ class MainPage extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => GetDistance()));
+                },
                 shape: new RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(30.0),
                 ),

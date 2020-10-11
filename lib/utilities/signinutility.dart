@@ -84,7 +84,8 @@ class SignInUtil {
   }
 
   void signOutGoogle() async {
-    await googleSignIn.signOut();
     SharedPreferencesUtil.clearPreferences();
+    await googleSignIn.signOut();
+
   }
 }
